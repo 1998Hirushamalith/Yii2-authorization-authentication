@@ -17,6 +17,83 @@ features to your application.
 [![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-basic.svg)](https://packagist.org/packages/yiisoft/yii2-app-basic)
 [![build](https://github.com/yiisoft/yii2-app-basic/workflows/build/badge.svg)](https://github.com/yiisoft/yii2-app-basic/actions?query=workflow%3Abuild)
 
+System Snap shot
+
+Home page
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/66478e5e-6821-4a85-864a-fd3572b4e1b7)
+
+
+Login page
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/5b5402f5-6855-4d48-af35-7845d8f08792)
+
+
+Login page - validation
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/52195acc-d406-4c7a-a03f-dc4b5ff5acfa)
+
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/1394622a-75e2-4036-8a3b-e178890126c9)
+
+
+Sign up page - validation
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/f7e7db69-54d1-48f0-9c21-38615b8dd3e0)
+
+New user creation
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/39823f29-8a9b-4abe-956d-cf27739bf5c0)
+
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/6de0c27a-0001-4dfe-9615-3d2dcd04c451)
+
+
+Product list
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/35e202c6-adce-4441-bc20-70042f372b2d)
+
+
+Product creation
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/9b4b7675-30e1-45ad-8c9e-9130486fd45e)
+
+Product updated
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/2eec2295-6c52-45be-aa91-4fe002fdf86f)
+
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/e2814247-c92f-4f55-a111-31b43b048ae4)
+
+Contact us page
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/076faa9d-8659-4220-a5d7-79320cc070e8)
+
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/fc2f129b-fc3f-4fd8-b85c-30a2b2aa201c)
+
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/86f6508a-2ef9-4166-8f1c-10bdb805d3a6)
+
+Contact us - notification after entered and validation success
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/48a53e89-bd71-4a47-ab64-d05607d50291)
+
+Blog page
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/2da97dcb-6830-4038-81c9-f628cabc8068)
+
+Deleting blog
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/dd31e133-85ea-49f9-89db-e8a336c73804)
+
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/fb51ac9f-2317-4235-bb29-cf39da85e2a9)
+
+Create and update the new blog
+
+![image](https://github.com/1998Hirushamalith/Yii2-authorization-authentication/assets/130145482/cac5a1b1-a47d-461d-a240-cdd79917cb0e)
+
 
 APPLICATION STRUCTURE
 -------------------
