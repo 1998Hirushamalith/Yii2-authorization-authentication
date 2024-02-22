@@ -1,0 +1,83 @@
+PS C:\xampp\htdocs\projects\basic> php yii migrate/create create_category_table
+Yii Migration Tool (based on Yii v2.0.49.3)
+
+Create new migration 'C:\xampp\htdocs\projects\basic/migrations\m240221_100255_create_category_table.php'? (yes|no) [no]:yes
+New migration created successfully.
+PS C:\xampp\htdocs\projects\basic> php yii migrate/up
+Yii Migration Tool (based on Yii v2.0.49.3)
+
+Creating migration history table "migration"...Done.
+Total 1 new migration to be applied:
+        m240221_100255_create_category_table
+
+Apply the above migration? (yes|no) [no]:yes
+*** applying m240221_100255_create_category_table
+Exception: Undefined variable $table (C:\xampp\htdocs\projects\basic\migrations\m240221_100255_create_category_table.php:18)
+#0 C:\xampp\htdocs\projects\basic\migrations\m240221_100255_create_category_table.php(18): yii\base\ErrorHandler->handleError(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\projects\basic\vendor\yiisoft\yii2\db\Migration.php(114): m240221_100255_create_category_table->safeUp()
+#2 C:\xampp\htdocs\projects\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(758): 
+yii\db\Migration->up()
+#3 C:\xampp\htdocs\projects\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(216): 
+yii\console\controllers\BaseMigrateController->migrateUp('m240221_100255_...')
+#4 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#5 C:\xampp\htdocs\projects\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\projects\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\projects\basic\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('up', Array)
+#8 C:\xampp\htdocs\projects\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('up', Array)
+#9 C:\xampp\htdocs\projects\basic\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#10 C:\xampp\htdocs\projects\basic\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Arron->runAction('migrate/up', Array)                                                                        >handleRequest(Object(yii\conso
+#11 C:\xampp\htdocs\projects\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\xampp\htdocs\projects\basic\yii(20): yii\base\Application->run()
+#13 {main}
+*** failed to apply m240221_100255_create_category_table (time: 0.273s)
+
+
+0 from 1 migrations were applied.
+
+Migration failed. The rest of the migrations are canceled.
+PS C:\xampp\htdocs\projects\basic> php yii migrate/up
+Yii Migration Tool (based on Yii v2.0.49.3)
+
+Total 1 new migration to be applied:
+        m240221_100255_create_category_table
+
+Apply the above migration? (yes|no) [no]:yes
+*** applying m240221_100255_create_category_table
+    > create table {{%category}} ... done (time: 0.023s)
+*** applied m240221_100255_create_category_table (time: 0.070s)
+
+
+1 migration was applied.
+
+Migrated up successfully.
+PS C:\xampp\htdocs\projects\basic> php yii migrate/create add_category_id_column_to_product_table --fields="category_id:integer"
+Yii Migration Tool (based on Yii v2.0.49.3)
+
+Create new migration 'C:\xampp\htdocs\projects\basic/migrations\m240221_102137_add_category_id_column_to_product_table.php'? (yes|no) [no]:yes
+New migration created successfully.
+PS C:\xampp\htdocs\projects\basic> php yii migrate/create create_user_table    
+Yii Migration Tool (based on Yii v2.0.49.3)
+
+Create new migration 'C:\xampp\htdocs\projects\basic/migrations\m240221_102552_create_user_table.php'? (yes|no) [no]:yess|no) [no]:yes
+New migration created successfully.
+PS C:\xampp\htdocs\projects\basic> php yii migrate/up
+Yii Migration Tool (based on Yii v2.0.49.3)
+
+Total 2 new migrations to be applied:
+        m240221_102137_add_category_id_column_to_product_table
+        m240221_102552_create_user_table
+
+Apply the above migrations? (yes|no) [no]:yes
+*** applying m240221_102137_add_category_id_column_to_product_table
+    > add column category_id integer to table {{%product}} ... done (time: 0.013s)
+*** applied m240221_102137_add_category_id_column_to_product_table (time: 0.071s)
+
+*** applying m240221_102552_create_user_table
+    > create table {{%user}} ... done (time: 0.054s)
+*** applied m240221_102552_create_user_table (time: 0.088s)
+
+
+2 migrations were applied.
+
+Migrated up successfully.
+PS C:\xampp\htdocs\projects\basic>

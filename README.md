@@ -17,6 +17,37 @@ features to your application.
 [![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-basic.svg)](https://packagist.org/packages/yiisoft/yii2-app-basic)
 [![build](https://github.com/yiisoft/yii2-app-basic/workflows/build/badge.svg)](https://github.com/yiisoft/yii2-app-basic/actions?query=workflow%3Abuild)
 
+
+APPLICATION STRUCTURE
+-------------------
+
+1.  Install Yii2 with composer.
+2.  Configure Yii 2 application name ,id and time zone.
+3.  Connect Yii 2 to database.
+4.  configure Yii 2 pretty URLs - SEO friendly URLs.
+5.  Yii 2 RESTful APIs setup.
+6.  Yii 2 RESTful APIs Create Read Update Delete.
+7.  Format Currency.
+8.  Format date and time.
+9.  DB Migrations Add table columns.
+10. Add Menu Items.
+11. User Sign up table migration.
+12. Sign up user and model creation.
+13. Sign up & login.
+
+14. RESTful APIs
+
+        HTTP Header Authentication.
+        Bearer Token Authentication.
+        HTTP Basic Auth.
+        Query Param Authentication.
+        Composite Authentication.
+        exclude endpoint authentication(except).
+        optional endpoint authentication.
+        specific actions authentication.
+
+15.  Install the imagick extension to use this back end. 
+
 DIRECTORY STRUCTURE
 -------------------
 
